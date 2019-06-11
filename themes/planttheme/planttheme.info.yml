@@ -1,0 +1,12 @@
+name: Planttheme
+type: theme
+description: 'A greenish theme for beautiful plants.'
+core: 8.x
+libraries:
+  - planttheme/global-styling
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
