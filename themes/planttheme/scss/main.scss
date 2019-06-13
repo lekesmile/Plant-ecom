@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
-@import "/sites/default/files/images/chris-abney-116403-unsplash_web.gif";
+$imagepath: /sites/default/files/images;
 * {
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ $otsikkofontti: 'Montserrat', sans-serif;
 $otsikkovari: #475472;
 
 header {
-    background-image: chris-abney-116403-unsplash_web.gif;
+    background: url($imagepath/chris-abney-116403-unsplash_web.gif) no-repeat;
 }
 
 h1 {
