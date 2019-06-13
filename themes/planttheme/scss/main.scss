@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
+@import "/sites/default/files/images/chris-abney-116403-unsplash_web.gif";
+* {
+    box-sizing: border-box;
+}
+
+$titlefontti: 'Merienda One', cursive;
+$otsikkofontti: 'Montserrat', sans-serif;
+$otsikkovari: #475472;
+
+header {
+    background-image: chris-abney-116403-unsplash_web.gif;
+}
+
+h1 {
+    font-family: $titlefontti;
+    color: $otsikkovari;
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu {
+    a {
+    font-family: $otsikkofontti;
+    text-decoration: none;
+        a.is-active {
+            color: red;
+    }
+    }
+    }
+
+
+.view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.views-row {
+    font-family: $otsikkofontti;
+    display: flex;
+    width: 33%;
+    padding: 10px;
+}
+
+.views-field {
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-basis: auto;
+    padding: 0 20px 0 20px;
+}
+
+.view-content {
+    padding: 20px;
+}
+
+#block-planttheme-account-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
