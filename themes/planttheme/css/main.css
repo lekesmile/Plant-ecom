@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap");
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: "Merienda One", cursive;
+  color: #475472;
+  display: flex;
+  justify-content: center; }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none; }
+
+.view-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.views-row {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  width: 33%;
+  padding: 10px; }
+
+.views-field {
+  display: flex;
+  flex-direction: column; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.menu-item {
+  display: flex;
+  flex-basis: auto;
+  padding: 0 20px 0 20px; }
+
+.view-content {
+  padding: 20px; }
+
+#block-planttheme-account-menu {
+  display: flex;
+  justify-content: flex-end; }
