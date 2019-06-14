@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap");
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 * {
   box-sizing: border-box; }
+
+#block-planttheme-branding {
+  font-family: "Merienda One", cursive;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 h1 {
   font-family: "Merienda One", cursive;
@@ -11,6 +21,11 @@ h1 {
 a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none; }
+  a a.is-active {
+    color: red; }
+
+.site-name {
+  font-family: "Merienda One", cursive; }
 
 .view-content {
   display: flex;
