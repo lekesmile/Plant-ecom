@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
 $imagepath: /sites/default/files/images;
 * {
     box-sizing: border-box;
@@ -8,8 +10,14 @@ $titlefontti: 'Merienda One', cursive;
 $otsikkofontti: 'Montserrat', sans-serif;
 $otsikkovari: #475472;
 
-header {
-    background: url($imagepath/chris-abney-116403-unsplash_web.gif) no-repeat;
+%valikkotyylit {
+    font-family: $titlefontti;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 h1 {
@@ -19,16 +27,20 @@ h1 {
     justify-content: center;
 }
 
-ul.menu {
-    a {
-    font-family: $otsikkofontti;
-    text-decoration: none;
-        a.is-active {
-            color: red;
-    }
-    }
-    }
+a {
+font-family: $otsikkofontti;
+text-decoration: none;
+    a.is-active {
+        color: red;
+}
+}
 
+.site-name {
+    font-family: $titlefontti;
+    a {
+        font-family: $titlefontti;
+        text-decoration: none;
+}
 
 .view-content {
     display: flex;
@@ -66,5 +78,9 @@ ul.menu {
 #block-planttheme-account-menu {
     display: flex;
     justify-content: flex-end;
+}
+
+#block-planttheme-branding {
+    @extend %valikkotyylit;
 }
 
