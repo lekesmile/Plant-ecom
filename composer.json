@@ -7,7 +7,9 @@
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drush/drush": "^9.7",
-        "drupal/commerce": "^2.13"
+        "drupal/commerce": "^2.13",
+        "drupal/barrio": "1.x-dev",
+        "drupal/webform": "^5.2"
     },
     "replace": {
         "drupal/core": "^8.7"
