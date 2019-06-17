@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.vendor.body
     - field.field.node.vendor.field_mobile_number
+    - field.field.node.vendor.field_sales
     - field.field.node.vendor.field_vendor_s_name
     - field.field.node.vendor.field_vendorimage
     - image.style.thumbnail
@@ -39,6 +40,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_sales:
+    weight: 125
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_vendor_s_name:
     weight: 122

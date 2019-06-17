@@ -15,4 +15,4 @@ description: 'This page is for vendors to sell their products'
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

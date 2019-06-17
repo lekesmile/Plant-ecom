@@ -1,0 +1,8 @@
+uuid: 01090c03-e930-46d6-a8b0-36358c38700c
+langcode: en
+status: true
+dependencies: {  }
+name: Sales
+vid: sales
+description: ''
+weight: 0

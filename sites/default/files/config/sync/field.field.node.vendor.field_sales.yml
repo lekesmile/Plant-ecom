@@ -1,0 +1,29 @@
+uuid: 1b2c5a21-59b6-428a-8431-d541cdac48e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sales
+    - node.type.vendor
+    - taxonomy.vocabulary.sales
+id: node.vendor.field_sales
+field_name: field_sales
+entity_type: node
+bundle: vendor
+label: Sales
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sales: sales
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
