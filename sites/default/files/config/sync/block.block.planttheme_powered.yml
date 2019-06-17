@@ -1,0 +1,22 @@
+uuid: 96b38bc1-fc80-464f-a410-ee7b67135bc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - planttheme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: planttheme_powered
+theme: planttheme
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: e202170c-39df-41c0-8e06-376177f37aa0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - planttheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: planttheme_local_actions
+theme: planttheme
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

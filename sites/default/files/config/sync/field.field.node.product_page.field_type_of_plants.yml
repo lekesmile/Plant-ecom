@@ -1,0 +1,31 @@
+uuid: 15ca9e9d-c061-4339-9417-0e6033f8018e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_plants
+    - node.type.product_page
+    - taxonomy.vocabulary.indoors
+    - taxonomy.vocabulary.outdoors
+id: node.product_page.field_type_of_plants
+field_name: field_type_of_plants
+entity_type: node
+bundle: product_page
+label: 'Type of plants'
+description: 'Choose the type of plant and for what purpose it is.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      indoors: indoors
+      outdoors: outdoors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: indoors
+field_type: entity_reference

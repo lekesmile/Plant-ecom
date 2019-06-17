@@ -1,0 +1,8 @@
+uuid: cad07786-13a6-434f-b41b-a8b6d7e16119
+langcode: en
+status: true
+dependencies: {  }
+name: Indoors
+vid: indoors
+description: 'Plants to grow indoors'
+weight: 0
