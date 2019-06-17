@@ -1,0 +1,22 @@
+uuid: 292afcdf-3a8c-46a7-8f74-6b8f66660ef9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - planttheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: planttheme_local_tasks
+theme: planttheme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
