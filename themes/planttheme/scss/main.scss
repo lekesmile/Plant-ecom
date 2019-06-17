@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
-$imagepath: /sites/default/files/images;
+//@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
+
 * {
     box-sizing: border-box;
 }
@@ -8,8 +10,14 @@ $titlefontti: 'Merienda One', cursive;
 $otsikkofontti: 'Montserrat', sans-serif;
 $otsikkovari: #475472;
 
-header {
-    background: url($imagepath/chris-abney-116403-unsplash_web.gif) no-repeat;
+%valikkotyylit {
+    font-family: $titlefontti;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 h1 {
@@ -19,16 +27,25 @@ h1 {
     justify-content: center;
 }
 
-ul.menu {
-    a {
-    font-family: $otsikkofontti;
-    text-decoration: none;
-        a.is-active {
-            color: red;
-    }
-    }
-    }
+header {
+    background: url("../img/chris-abney-116403-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    background-size: 600px 300px;
+}
 
+a {
+font-family: $otsikkofontti;
+}
+
+.site-name {
+    font-family: $titlefontti;
+    a {
+        font-family: $titlefontti;
+        text-decoration: none;
+}
 
 .view-content {
     display: flex;
@@ -47,16 +64,19 @@ ul.menu {
     display: flex;
     flex-direction: column;
 }
-.menu {
+
+ul.menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.menu-item {
+li {
+    .menu-item {
     display: flex;
     flex-basis: auto;
     padding: 0 20px 0 20px;
+}
 }
 
 .view-content {
@@ -66,5 +86,11 @@ ul.menu {
 #block-planttheme-account-menu {
     display: flex;
     justify-content: flex-end;
+}
+
+
+//#block-planttheme-branding {
+  //  @extend %valikkotyylit;
+//}
 }
 
