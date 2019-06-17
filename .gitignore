@@ -24,6 +24,10 @@ sites/*/services*.yml
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+sites/*/files/js
+sites/*/files/css
+sites/*/files/php
+sites/*/files/twig
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
