@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
-@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+//@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
 
-$imagepath: /sites/default/files/images;
 * {
     box-sizing: border-box;
 }
@@ -27,12 +26,17 @@ h1 {
     justify-content: center;
 }
 
+header {
+    background: url("../img/chris-abney-116403-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    background-size: 600px 300px;
+}
+
 a {
 font-family: $otsikkofontti;
-text-decoration: none;
-    a.is-active {
-        color: red;
-}
 }
 
 .site-name {
@@ -59,16 +63,19 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
 }
-.menu {
+
+ul.menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.menu-item {
+li {
+    .menu-item {
     display: flex;
     flex-basis: auto;
     padding: 0 20px 0 20px;
+}
 }
 
 .view-content {
@@ -80,7 +87,9 @@ text-decoration: none;
     justify-content: flex-end;
 }
 
-#block-planttheme-branding {
-    @extend %valikkotyylit;
+
+//#block-planttheme-branding {
+  //  @extend %valikkotyylit;
+//}
 }
 

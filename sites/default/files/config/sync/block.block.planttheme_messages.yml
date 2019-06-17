@@ -1,0 +1,22 @@
+uuid: 691c3438-4e36-4993-9508-99fae86f8fc1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - planttheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: planttheme_messages
+theme: planttheme
+region: header
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

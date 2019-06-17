@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap");
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 * {
   box-sizing: border-box; }
-
-#block-planttheme-branding {
-  font-family: "Merienda One", cursive;
-  font-size: 2em;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
 
 h1 {
   font-family: "Merienda One", cursive;
@@ -18,43 +8,44 @@ h1 {
   display: flex;
   justify-content: center; }
 
+header {
+  background: url("../img/chris-abney-116403-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: transparent;
+  background-size: 600px 300px; }
+
 a {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none; }
-  a a.is-active {
-    color: red; }
+  font-family: "Montserrat", sans-serif; }
 
 .site-name {
   font-family: "Merienda One", cursive; }
-
-.view-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.views-row {
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-  width: 33%;
-  padding: 10px; }
-
-.views-field {
-  display: flex;
-  flex-direction: column; }
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.menu-item {
-  display: flex;
-  flex-basis: auto;
-  padding: 0 20px 0 20px; }
-
-.view-content {
-  padding: 20px; }
-
-#block-planttheme-account-menu {
-  display: flex;
-  justify-content: flex-end; }
+  .site-name a {
+    font-family: "Merienda One", cursive;
+    text-decoration: none; }
+  .site-name .view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .site-name .views-row {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 33%;
+    padding: 10px; }
+  .site-name .views-field {
+    display: flex;
+    flex-direction: column; }
+  .site-name ul.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .site-name li .menu-item {
+    display: flex;
+    flex-basis: auto;
+    padding: 0 20px 0 20px; }
+  .site-name .view-content {
+    padding: 20px; }
+  .site-name #block-planttheme-account-menu {
+    display: flex;
+    justify-content: flex-end; }

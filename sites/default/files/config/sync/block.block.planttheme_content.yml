@@ -1,0 +1,22 @@
+uuid: 613ff80e-69f9-4179-a0e6-29ccc3f34933
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - planttheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: planttheme_content
+theme: planttheme
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

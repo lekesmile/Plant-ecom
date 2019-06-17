@@ -1,0 +1,22 @@
+uuid: 20553817-1930-4a49-8c4b-bf83a77b63e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - planttheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: planttheme_help
+theme: planttheme
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

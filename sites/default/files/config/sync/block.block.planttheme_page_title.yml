@@ -1,0 +1,20 @@
+uuid: 9b69566e-ec01-4a35-aff4-9dfb02ef5184
+langcode: en
+status: true
+dependencies:
+  theme:
+    - planttheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: planttheme_page_title
+theme: planttheme
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
