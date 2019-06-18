@@ -5,6 +5,10 @@ dependencies:
   config:
     - field.field.node.vendor.body
     - field.field.node.vendor.field_mobile_number
+<<<<<<< HEAD
+    - field.field.node.vendor.field_sales
+=======
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
     - field.field.node.vendor.field_vendor_s_name
     - field.field.node.vendor.field_vendorimage
     - image.style.thumbnail
@@ -40,6 +44,18 @@ content:
     third_party_settings: {  }
     type: number
     region: content
+<<<<<<< HEAD
+  field_sales:
+    weight: 125
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+=======
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
   field_vendor_s_name:
     weight: 122
     settings:

@@ -5,6 +5,10 @@ dependencies:
   config:
     - field.field.node.vendor.body
     - field.field.node.vendor.field_mobile_number
+<<<<<<< HEAD
+    - field.field.node.vendor.field_sales
+=======
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
     - field.field.node.vendor.field_vendor_s_name
     - field.field.node.vendor.field_vendorimage
     - image.style.medium
@@ -34,6 +38,17 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
+<<<<<<< HEAD
+  field_sales:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+=======
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
   field_vendor_s_name:
     weight: 3
     label: above
@@ -44,7 +59,11 @@ content:
     region: content
   field_vendorimage:
     weight: 2
+<<<<<<< HEAD
+    label: hidden
+=======
     label: above
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
     settings:
       image_style: medium
       image_link: ''

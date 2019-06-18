@@ -13,7 +13,11 @@ _core:
 id: planttheme_tools
 theme: planttheme
 region: sidebar_first
+<<<<<<< HEAD
+weight: -6
+=======
 weight: 0
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

@@ -1,0 +1,24 @@
+uuid: 3841a832-646b-4acd-81fe-cdd97f4d4b5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.now_on_sale
+  module:
+    - views
+  theme:
+    - planttheme
+id: views_block__now_on_sale_block_1
+theme: planttheme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:now_on_sale-block_1'
+settings:
+  id: 'views_block:now_on_sale-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

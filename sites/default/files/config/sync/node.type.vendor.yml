@@ -15,4 +15,8 @@ description: 'This page is for vendors to sell their products'
 help: ''
 new_revision: true
 preview_mode: 1
+<<<<<<< HEAD
+display_submitted: false
+=======
 display_submitted: true
+>>>>>>> c720e4f519245fe302313811710968f75415e6f8

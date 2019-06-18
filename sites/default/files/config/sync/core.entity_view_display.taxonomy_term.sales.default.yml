@@ -1,0 +1,21 @@
+uuid: a74a400e-c0ea-418a-8fad-79c0efc2ccfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sales
+  module:
+    - text
+id: taxonomy_term.sales.default
+targetEntityType: taxonomy_term
+bundle: sales
+mode: default
+content:
+  description:
+    label: inline
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

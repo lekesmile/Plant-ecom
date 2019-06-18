@@ -1,0 +1,23 @@
+uuid: c52f16b6-ba26-40e0-82f2-d67e59f6fd4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.sales
+  module:
+    - text
+id: taxonomy_term.sales.full
+targetEntityType: taxonomy_term
+bundle: sales
+mode: full
+content:
+  description:
+    label: above
+    type: text_trimmed
+    weight: 0
+    region: content
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+hidden: {  }
