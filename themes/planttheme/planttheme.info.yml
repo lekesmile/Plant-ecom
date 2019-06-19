@@ -4,7 +4,7 @@ description: 'A greenish theme for beautiful plants.'
 core: 8.x
 libraries:
   - planttheme/global-styling
-base theme: onepage_zymphonies_theme
+base theme: classy
 regions:
   header: Header
   content: Content

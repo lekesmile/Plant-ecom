@@ -1,3 +1,110 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap');
 @import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
 
+* {
+    box-sizing: border-box;
+}
+
+$titlefontti: 'Merienda One', cursive;
+$otsikkofontti: 'Montserrat', sans-serif;
+$otsikkovari: white;
+
+%valikkotyylit {
+    font-family: $titlefontti;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    background-color: #0E735E;
+}
+
+h1 {
+    font-family: $titlefontti;
+    color: $otsikkovari;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+a {
+    font-family: $otsikkofontti;
+    text-decoration: none;
+    color: $titlefontti;
+}
+
+ol .li .a {
+    color: white;
+}
+
+.site-name {
+    font-family: $titlefontti;
+}
+
+nav.breadcrumb {
+    background-color: #57615F;
+}
+
+.node__content {
+    display: block;
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    font-family: $otsikkofontti;
+    padding: 20px;
+}
+
+.view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F1F2F2;
+}
+
+.views-row {
+    font-family: $otsikkofontti;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 33%;
+    padding: 10px;
+    background-color: white;
+}
+
+.views-field {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li.menu-item {
+    display: flex;
+    flex-basis: auto;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+.view-content {
+    padding: 20px;
+}
+
+#block-planttheme-account-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#block-planttheme-branding {
+    @extend %valikkotyylit;
+}
