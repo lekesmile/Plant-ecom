@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda+One|Montserrat&display=swap");
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 * {
   box-sizing: border-box; }
 
+<<<<<<< HEAD
 #block-planttheme-branding {
   font-family: "Merienda One", cursive;
   font-size: 2em;
@@ -15,6 +15,8 @@
 header {
   background-color: #0E735E; }
 
+=======
+>>>>>>> 6294f100a0184471923ac9bb122ec553f6318b90
 h1 {
   font-family: "Merienda One", cursive;
   color: white;
@@ -23,7 +25,16 @@ h1 {
   font-size: 2em;
   padding: 20px; }
 
+header {
+  background: url("../img/chris-abney-116403-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: transparent;
+  background-size: 600px 300px; }
+
 a {
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: "Merienda One", cursive; }
@@ -83,3 +94,37 @@ li.menu-item {
 #block-planttheme-account-menu {
   display: flex;
   justify-content: flex-end; }
+=======
+  font-family: "Montserrat", sans-serif; }
+
+.site-name {
+  font-family: "Merienda One", cursive; }
+  .site-name a {
+    font-family: "Merienda One", cursive;
+    text-decoration: none; }
+  .site-name .view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .site-name .views-row {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 33%;
+    padding: 10px; }
+  .site-name .views-field {
+    display: flex;
+    flex-direction: column; }
+  .site-name ul.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .site-name li .menu-item {
+    display: flex;
+    flex-basis: auto;
+    padding: 0 20px 0 20px; }
+  .site-name .view-content {
+    padding: 20px; }
+  .site-name #block-planttheme-account-menu {
+    display: flex;
+    justify-content: flex-end; }
+>>>>>>> 6294f100a0184471923ac9bb122ec553f6318b90
