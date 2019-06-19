@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_price
     - field.storage.node.field_product_image
-    - image.style.medium
+    - image.style.keskitetty
     - node.type.product_page
     - system.menu.main
   module:
@@ -111,7 +111,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: h2
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -191,7 +191,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: medium
+            image_style: keskitetty
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -211,7 +211,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: ''
+          label: 'Price:'
           exclude: false
           alter:
             alter_text: false
